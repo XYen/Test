@@ -13,6 +13,7 @@
 		14C4D6DA1EF5137400969989 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14C4D6D81EF5137400969989 /* Main.storyboard */; };
 		14C4D6DC1EF5137400969989 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14C4D6DB1EF5137400969989 /* Assets.xcassets */; };
 		14C4D6DF1EF5137400969989 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14C4D6DD1EF5137400969989 /* LaunchScreen.storyboard */; };
+		14C4D6EB1EF5150700969989 /* VCTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 14C4D6EA1EF5150700969989 /* VCTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		14C4D6DB1EF5137400969989 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		14C4D6DE1EF5137400969989 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		14C4D6E01EF5137400969989 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14C4D6E91EF5150700969989 /* VCTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VCTest.h; path = ../VCTest.h; sourceTree = "<group>"; };
+		14C4D6EA1EF5150700969989 /* VCTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VCTest.m; path = ../VCTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				14C4D6D31EF5137400969989 /* AppDelegate.m */,
 				14C4D6D51EF5137400969989 /* ViewController.h */,
 				14C4D6D61EF5137400969989 /* ViewController.m */,
+				14C4D6E91EF5150700969989 /* VCTest.h */,
+				14C4D6EA1EF5150700969989 /* VCTest.m */,
 				14C4D6D81EF5137400969989 /* Main.storyboard */,
 				14C4D6DB1EF5137400969989 /* Assets.xcassets */,
 				14C4D6DD1EF5137400969989 /* LaunchScreen.storyboard */,
@@ -150,6 +155,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14C4D6EB1EF5150700969989 /* VCTest.m in Sources */,
 				14C4D6D71EF5137400969989 /* ViewController.m in Sources */,
 				14C4D6D41EF5137400969989 /* AppDelegate.m in Sources */,
 				14C4D6D11EF5137400969989 /* main.m in Sources */,
