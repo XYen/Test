@@ -21,6 +21,8 @@
     NSLog(@"111");
     
     self.view.backgroundColor = [UIColor whiteColor];
+    
+    self.title = @"测试";
 }
 
 - (void)didReceiveMemoryWarning {
